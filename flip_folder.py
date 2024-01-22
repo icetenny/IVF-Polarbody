@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # Input and output directories
-input_dir = "pb_split_no_flip/val/1"
+input_dir = "data_pic/out/pb_split_pat147_relight_balanced_702010_final/test/0"
 
 # Ensure the output directory exists
 

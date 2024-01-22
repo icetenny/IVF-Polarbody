@@ -3,10 +3,10 @@ import shutil
 import random
 
 # Define the input directory containing your classes
-input_dir = 'pb_class_no_flip'
+input_dir = 'data_pic/out/pb_class_pat147_relight_'
 
 # Define the output directories for train, validation, and test data
-output_dir = 'pb_split_no_flip'
+output_dir = 'data_pic/out/pb_split_pat147_relight_balanced_702010_final'
 train_dir = os.path.join(output_dir, 'train')
 val_dir = os.path.join(output_dir, 'val')
 test_dir = os.path.join(output_dir, 'test')
@@ -17,9 +17,9 @@ os.makedirs(val_dir, exist_ok=True)
 os.makedirs(test_dir, exist_ok=True)
 
 # Set the ratios for training, validation, and testing
-train_ratio = 0.8
+train_ratio = 0.7
 val_ratio = 0.1
-test_ratio = 0.1
+test_ratio = 0.2
 
 # Iterate through the class directories in the input folder
 for class_name in os.listdir(input_dir):

@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 import csv
 
-IMAGE_PATH = "Labeled-45pat-flip/images"
-LABEL_PATH = "Labeled-45pat-flip/labels"
+IMAGE_PATH = "data_pic/Labeled-pat147/train/images"
+LABEL_PATH = "data_pic/Labeled-pat147/train/labels"
 PB_SIZE = (40, 20)
 HAS_FLIPPED = True
 DRAW_AND_SHOW = False
